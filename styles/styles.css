@@ -1,0 +1,166 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+
+h1, h2, h3, h5 {
+    columns: #000;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 27px;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h4 {
+    color: #A8A8A8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+h5, .diploma {
+    color: #000;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+p {
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+mark {
+    color: #FB6D3A;
+    background-color: #fff;
+}
+
+/* main style */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* main-content */
+.main-content {
+    background-color: #fff;
+    margin: 40px 40px 40px 0;
+    padding-left: 80px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* about */
+.about {
+    margin-top: 100px ;
+    width: 400px;
+}
+
+/* project */
+.project {
+    margin-top: 40px;
+}
+
+/* work */
+.work {
+    margin-top: 50px;
+} 
+
+/* company */
+.company {
+    margin-top: 15px;
+}
+
+.content-bold {
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+    margin-left: 25px;
+}
+
+.content-text, .content-link {
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.line {
+color: #000;
+}
+
+/* education */
+.education {
+    margin-top: 40px;
+}
+
+/* sidebar style */
+.sidebar {
+    background-color: #1E2939;
+    width: 370px;
+    margin: 40px 0 40px 40px;
+    padding-top: 40px;
+}
+
+/* contact */
+.contact, .tech-skills, .soft-skills {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.photo {
+    width: 370px;
+}
+
+.sidebar-title {
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-type {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.contact-text, .skill-text {
+    color: #fff;
+    line-height: 24px;
+}
+
+.contact-link {
+    color: #595959;
+    line-height: 24px;
+}
+
+.sidebar-content {
+    color: #FB6D3A;
+    padding: 0;
+    margin-left: 15px;
+}
+
